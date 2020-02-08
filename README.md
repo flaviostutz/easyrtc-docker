@@ -10,11 +10,11 @@ version: "3"
 
 services:
   easyrtc:
-    build: .
     image: flaviostutz/easyrtc
     ports:
       - 8080:8080
 ```
+
 * Run ```docker-compose up -d```
 
 * Open browser at http://localhost:8080/
